@@ -1,0 +1,19 @@
+.web-page {
+  display: flex;
+
+}
+
+.image-div {
+  height: auto;
+  max-width: 40%;
+}
+
+.image {
+  height: auto;
+  max-width:100%;
+}
+
+.sign-up-div {
+  height: auto;
+  width: 60%;
+}
