@@ -2,6 +2,7 @@
   display: flex;
 
 }
+/*Left hand side/image alterations */
 
 .image-div {
   height: auto;
@@ -26,7 +27,27 @@ a {
   height: auto;
 }
 
+/*Right hand side/sign-up alterations*/
+
 .sign-up-div {
   height: auto;
+  display: flex;
+  flex-flow: column wrap;
   flex-grow: 2;
+}
+
+.sign-up-top {
+  flex-grow: 3;
+  background-color: rgb(245, 245, 245);
+}
+
+.sign-up-middle {
+  height: 20%;
+  flex-grow: 1;
+  background-color: rgb(255, 255, 255);
+}
+
+.sign-up-bottom {
+  flex-grow: 2;
+  background-color: rgb(245, 245, 245);
 }
