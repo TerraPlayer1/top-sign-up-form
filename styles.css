@@ -1,6 +1,11 @@
 :root {
   --main-bg-color: rgb(245, 245, 245);
   --sec-bg-color: (255, 255, 255);
+  --btn-bg-color: rgb(15, 92, 73);
+}
+
+p {
+  font-family:'Courier New', Courier, sans-serif;
 }
 
 .web-page {
@@ -44,6 +49,10 @@ a {
   flex-grow: 2;
 }
 
+.sign-up-top, .sign-up-middle, .sign-up-bottom{
+  padding-left: 2.4em;
+}
+
 .sign-up-top {
   flex-grow: 1;
   background-color: var(--main-bg-color);
@@ -64,12 +73,30 @@ a {
 }
 
 .welcome, .welcome2 {
-  padding-left: 2em;
   font-size: 1.6em;
-  font-family:'Courier New', Courier, sans-serif;
   font-weight: 600;
 }
 
 .welcome2 {
   padding-bottom: 2em;
+}
+
+.sign-up {
+  margin-top: 2em;
+  color: white;
+  background-color: var(--btn-bg-color);
+
+  font-size: 18px;
+
+  border: none;
+  padding: 14px 24px;
+  border-radius: 6px;
+}
+
+.log-in {
+  font-size: 1.4em;
+}
+
+.log-in-link {
+  color: var(--btn-bg-color);
 }
