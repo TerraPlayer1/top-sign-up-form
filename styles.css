@@ -2,6 +2,9 @@
   display: flex;
 
 }
+body{
+  margin: 0;
+}
 /*Left hand side/image alterations */
 
 .image-div {
@@ -24,7 +27,7 @@ a {
 }
 
 .image {
-  height: auto;
+  height: 100vh;
 }
 
 /*Right hand side/sign-up alterations*/
