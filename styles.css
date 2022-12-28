@@ -45,8 +45,11 @@ a {
 }
 
 .sign-up-top {
-  flex-grow: 3;
+  flex-grow: 1;
   background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .sign-up-middle {
@@ -58,4 +61,15 @@ a {
 .sign-up-bottom {
   flex-grow: 2;
   background-color: var(--main-bg-color);
+}
+
+.welcome, .welcome2 {
+  padding-left: 2em;
+  font-size: 1.6em;
+  font-family:'Courier New', Courier, sans-serif;
+  font-weight: 600;
+}
+
+.welcome2 {
+  padding-bottom: 2em;
 }
