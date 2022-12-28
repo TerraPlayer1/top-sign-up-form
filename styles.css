@@ -1,7 +1,12 @@
+:root {
+  --main-bg-color: rgb(245, 245, 245);
+  --sec-bg-color: (255, 255, 255);
+}
+
 .web-page {
   display: flex;
-
 }
+
 body{
   margin: 0;
 }
@@ -41,16 +46,16 @@ a {
 
 .sign-up-top {
   flex-grow: 3;
-  background-color: rgb(245, 245, 245);
+  background-color: var(--main-bg-color);
 }
 
 .sign-up-middle {
   height: 20%;
   flex-grow: 1;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--sec-bg-color);
 }
 
 .sign-up-bottom {
   flex-grow: 2;
-  background-color: rgb(245, 245, 245);
+  background-color: var(--main-bg-color);
 }
