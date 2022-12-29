@@ -109,5 +109,12 @@ form {
   display: flex;
   flex-flow: column wrap ;
   width: 50%;
+  margin-top: 12px;
+  margin-bottom: 20px;
 }
 
+input {
+  width:60%;
+  height: 24px;
+  
+}
