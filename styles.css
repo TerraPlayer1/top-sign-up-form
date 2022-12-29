@@ -100,3 +100,14 @@ a {
 
 /*Form styles*/
 
+form {
+  display: flex;
+  flex-flow: wrap row;
+}
+
+.input-div {
+  display: flex;
+  flex-flow: column wrap ;
+  width: 50%;
+}
+
