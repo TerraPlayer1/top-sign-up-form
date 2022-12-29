@@ -2,9 +2,6 @@
   --main-bg-color: rgb(245, 245, 245);
   --sec-bg-color: (255, 255, 255);
   --btn-bg-color: rgb(15, 92, 73);
-}
-
-p {
   font-family:'Courier New', Courier, sans-serif;
 }
 
@@ -100,3 +97,6 @@ a {
 .log-in-link {
   color: var(--btn-bg-color);
 }
+
+/*Form styles*/
+
