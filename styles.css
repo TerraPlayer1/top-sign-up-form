@@ -124,3 +124,9 @@ input {
   border: 1px lightgray solid;
   background-color: rgb(250, 250, 250);
 }
+
+input:focus {
+  outline: none;
+  outline: 1px rgb(0, 96, 221) solid;
+  box-shadow: 3px 3px 8px rgb(182, 182, 182);
+}
