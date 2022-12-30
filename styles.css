@@ -83,7 +83,7 @@ a {
   color: white;
   background-color: var(--btn-bg-color);
 
-  font-size: 18px;
+  font-size: 1.2em;
 
   border: none;
   padding: 14px 24px;
@@ -99,6 +99,10 @@ a {
 }
 
 /*Form styles*/
+
+.form-title {
+  font-size: 1.4em;
+}
 
 form {
   display: flex;
