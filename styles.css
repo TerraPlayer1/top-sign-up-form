@@ -5,12 +5,12 @@
   font-family:'Courier New', Courier, sans-serif;
 }
 
+html,body {
+  margin: 0;
+  padding: 0;
+}
 .web-page {
   display: flex;
-}
-
-body{
-  margin: 0;
 }
 /*Left hand side/image alterations */
 
@@ -26,9 +26,8 @@ a {
 
 .image-desc{
   position: absolute;
-  top: 94%;
-  left: 92%;
-  transform: translate(-50%, -50%);
+  bottom: 0px;
+  right: 9px;
   font-size: 1em;
   color: white;
 }
@@ -59,7 +58,7 @@ a {
   opacity: 100%;
   color: white;
   font-size: 4em;
-  font-family: 'Fredericka the Great', 'Courier New', Courier, sans-serif;
+  font-family: 'Fredericka the Great','Courier New', Courier, sans-serif;
 }
 
 
@@ -85,13 +84,16 @@ a {
 }
 
 .sign-up-middle {
-  height: 20%;
-  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  height: 20em;
   background-color: var(--sec-bg-color);
+  box-shadow: 2px 2px 2px gray;
 }
 
 .sign-up-bottom {
   flex-grow: 2;
+  min-height: 20px;
   background-color: var(--main-bg-color);
 }
 
@@ -156,3 +158,19 @@ input:focus {
   outline: 1px rgb(0, 96, 221) solid;
   box-shadow: 3px 3px 8px rgb(182, 182, 182);
 }
+
+/*Resize*/
+
+@media screen and (max-width: 1050px){
+  .web-page {
+    flex-direction: column;
+  }
+  .image-div {
+    height: 400px;
+  }
+  .image {
+    height: 100%;
+    width: 100vw;
+  }
+}
+

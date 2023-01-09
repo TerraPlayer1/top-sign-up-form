@@ -24,7 +24,7 @@
       </div>
       <div class="sign-up-middle">
         <p class="form-title">Let's do this</p>
-        <form action="get">
+        <form id="form" action="get">
 
           <div class="input-div">
             <label for="first-name">FIRST NAME</label>
@@ -55,16 +55,13 @@
             <label for="confirm-pass"> CONFIRM PASSWORD</label>
             <input id="confirm-pass" type="password" placeholder="8-20 characters" minlength="8" maxlength="20" required>
           </div>
-
-          <button type="submit" class="sign-up-btn"> Create Account</button>
         </form>
       </div>
       <div class="sign-up-bottom">
-
+        <button type="submit" form="form" class="sign-up-btn"> Create Account</button>
         <p class="log-in">Already have an account? 
          <a class="log-in-link" href="">Log in</a>.
         </p>
-
       </div>
     </div>
   </div>
